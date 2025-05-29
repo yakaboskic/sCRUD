@@ -1,0 +1,18 @@
+[project]
+name = "scrud"
+version = "0.1.0"
+description = "Scientific Computing Research Utility for Data Indexing"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy",
+    "pandas",
+    "matplotlib",
+    "scipy",
+    "tqdm",
+    "scikit-learn",
+    "statsmodels",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
